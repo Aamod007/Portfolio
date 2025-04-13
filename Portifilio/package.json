@@ -1,0 +1,18 @@
+{
+  "name": "aamod-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:css && npm run build:html",
+    "build:css": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify",
+    "build:html": "cp ./src/index.html ./dist/ && cp ./src/script.js ./dist/ && cp -r ./src/assets ./dist/",
+    "dev": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "@netlify/plugin-sitemap": "^0.11.0"
+  }
+} 
