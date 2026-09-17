@@ -204,10 +204,16 @@ a {
 .nav-brand {
   display: flex;
   align-items: center;
-  gap: 10px;
   font-size: 1.15rem;
   font-weight: 800;
   color: var(--text-primary);
+  text-decoration: none;
+  letter-spacing: -0.02em;
+  transition: var(--transition-fast);
+}
+
+.nav-brand:hover {
+  opacity: 0.85;
 }
 
 .brand-icon {
