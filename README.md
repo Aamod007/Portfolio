@@ -2,7 +2,7 @@
 
 > **Production-grade personal portfolio website showcasing low-latency cloud infrastructure, Kubernetes DRA GPU scheduling, Rust time-series acceleration, and production ML pipelines.**
 
-🌐 **Live Website:** Hosted on GitHub Pages  
+🌐 **Live Website:** [https://aamod007.github.io/Portfolio/](https://aamod007.github.io/Portfolio/)  
 📄 **Resume:** [`Aamod_Kumar_Resume.pdf`](./Aamod_Kumar_Resume.pdf)
 
 ---
