@@ -1,0 +1,5 @@
+# Dependencies & tooling
+.gstack/
+.DS_Store
+Thumbs.db
+*.log
